@@ -15,7 +15,7 @@ body {
 
 .app {
   width: 90%;
-  max-width: 43rem;
+  max-width: 48rem;
   padding: 1rem;
   border-radius: 12px;
   background-color: white;
@@ -56,6 +56,9 @@ body {
   display: flex;
   column-gap: 1rem;
   flex-wrap: wrap;
+}
+.control-group__item {
+  list-style-type: none;
 }
 
 .control-group .form-control {
